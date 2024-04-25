@@ -19,6 +19,7 @@ nav {
 
 #navbarNav {
     justify-content: left;
+    padding-left: 60px;
 }
 
 .logo {
