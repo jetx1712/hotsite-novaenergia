@@ -36,10 +36,10 @@ nav {
 
 
 .texto-banner {
-    left: 350px;
+    left: 15%;
     position: absolute;
     overflow: hidden;
-    top: 200px;
+    top: 300px;
 }
 
 .titulo-banner {
@@ -81,6 +81,7 @@ nav {
 .texto-banner i {
     margin-right: 10px;
 }
+
 /* Topicos */
 #topicos{
     margin-top: 150px;
@@ -93,7 +94,7 @@ nav {
 .bloco{
     height: 450px;
     width: 350px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
     display: grid;
     justify-items: start;
@@ -145,7 +146,7 @@ nav {
 .linha{
     height: 350px; 
     background: rgb(2 88 132);
-    border-radius: 50px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
 }
@@ -219,5 +220,9 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+.logos-fundo{
+    display: flex;
+    justify-content: center;
 }
 
