@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a href="/"><img class="logo" src="assets/images/logo.png" /></a>
+            <a href="index.php"><img class="logo" src="assets/images/logo.png" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -9,10 +9,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">O projeto</a>
+                        <a class="nav-link active" aria-current="page" href="projeto.php">O projeto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conceito</a>
+                        <a class="nav-link" href="conceito.php">Conceito</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Inspirações</a>

@@ -161,9 +161,10 @@
     .rodape img {
         max-width: 100px;
     }
+    /*O projeto */
 
-    .logos-fundo img {
-        max-width: 100%;
+    .beneficios{
+        flex-direction: column;
     }
 }
 /* 330 - 400 */
@@ -329,10 +330,13 @@
     .rodape img {
         max-width: 100px;
     }
+    /*O projeto */
 
-    .logos-fundo img {
-        max-width: 100%;
+    .beneficios{
+        flex-direction: column;
     }
+
+    
 
 
 }
@@ -498,10 +502,13 @@
     .rodape img {
         max-width: 100px;
     }
+    /*O projeto */
 
-    .logos-fundo img {
-        max-width: 100%;
+    .beneficios{
+        flex-direction: column;
     }
+
+    
 
 
 }
@@ -664,12 +671,15 @@
     }
 
     .rodape img {
-        max-width: 100px;
+        max-width: 200px;
+    }
+    /*O projeto */
+
+    .beneficios{
+        flex-direction: column;
     }
 
-    .logos-fundo img {
-        max-width: 100%;
-    }
+    
 }
 @media (min-width: 601px) and (max-width: 700px) {
 
@@ -830,11 +840,12 @@
     }
 
     .rodape img {
-        max-width: 100px;
+        max-width: 200px;
     }
+    /*O projeto */
 
-    .logos-fundo img {
-        max-width: 100%;
+    .beneficios{
+        flex-direction: column;
     }
 
 
@@ -998,16 +1009,15 @@
     }
 
     .rodape img {
-        max-width: 100px;
+        max-width: 200px;
     }
+     /*O projeto */
 
-    .logos-fundo img {
-        max-width: 100%;
+     .beneficios{
+        flex-direction: column;
     }
-
-
 }
-@media (min-width: 766px) and (max-width: 1000px) {
+@media (min-width: 766px) and (max-width: 1200px) {
 
     /*NavBar*/
     #navbarNav {
@@ -1032,11 +1042,11 @@
     #banner img {
         max-width: 100%;
         margin-top: 20px;
-        height: 470px;
+        height: 570px;
     }
 
     .texto-banner {
-        top: 150px;
+        top: 180px;
     }
 
     .titulo-banner {
@@ -1061,11 +1071,14 @@
     /*Section topicos*/
 
     #topicos {
-        margin-bottom: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .blocos {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
     }
 
     .bloco {
@@ -1080,11 +1093,11 @@
 
     .titulo-bloco {
         margin: 15px 15px 1px 21px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .paragrafo-bloco {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .saiba-mais {
@@ -1099,15 +1112,15 @@
     }
 
     .linha {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .img-boneco {
-        max-width: 150px;
+        max-width: 300px;
     }
 
     #linha-tempo h2 {
-        font-size: 20px;
+        font-size: 19px;
         margin-top: 20px;
         text-align: center;
     }
@@ -1166,12 +1179,185 @@
     }
 
     .rodape img {
-        max-width: 100px;
+        max-width: 200px;
+    }
+   
+
+    
+
+
+}
+@media (min-width: 1201px) and (max-width: 1750px) {
+
+    /*NavBar*/
+    #navbarNav {
+        padding-left: 0px;
     }
 
-    .logos-fundo img {
+    .icon-search {
+        display: block;
+    }
+
+    .navbar-toggler-icon {
+        width: 1em !important;
+    }
+
+    /*Section Banner*/
+    .logo {
+        max-width: 300px;
+        padding: 0;
+        margin: 10px;
+    }
+
+    #banner img {
+        max-width: 100%;
+        margin-top: 20px;
+        height: 770px;
+    }
+
+    .texto-banner {
+        top: 300px;
+    }
+
+    .titulo-banner {
+        font-size: 60px;
+    }
+
+    .subtitulo-banner {
+        font-size: 20px;
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .subtitulo-banner span {
+        font-size: 20px;
+    }
+
+    .button-text-banner {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    /*Section topicos*/
+
+    #topicos {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .blocos {
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .bloco {
+        width: 100%;
+        height: 0%;
+        margin-bottom: 20px;
+    }
+
+    .bloco img {
         max-width: 100%;
     }
+
+    .titulo-bloco {
+        margin: 15px 15px 1px 21px;
+        font-size: 20px;
+    }
+
+    .paragrafo-bloco {
+        font-size: 13px;
+    }
+
+    .saiba-mais {
+        padding: 0px 20px 20px 20px;
+        font-size: 16px;
+    }
+
+    /*Section Linha-tempo*/
+
+    #linha-tempo {
+        margin-bottom: 50px;
+    }
+
+    .linha {
+        flex-direction: row;
+        height: 390px;
+    }
+    .boneco{
+        justify-content: left;
+
+    }
+
+    .img-boneco {
+        max-width: 400px;
+    }
+
+    #linha-tempo h2 {
+        font-size: 23px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    #nova-energia {
+        font-size: 60px;
+    }
+
+    #linha-tempo .saiba-mais {
+        font-size: 22px;
+        margin: 5px;
+    }
+
+    /* Contato */
+    #contato {
+        margin-bottom: 10px;
+    }
+
+    #contato h1 {
+        font-size: 35px;
+    }
+
+    #contato p {
+        font-size: 17px;
+    }
+
+    #contato .bloco {
+        width: 100%;
+    }
+
+    #contato .bloco img {
+        max-width: 60px;
+    }
+
+    .titulo-contato {
+        font-size: 30px;
+    }
+
+    .paragrafo-contato {
+        font-size: 14px !important;
+    }
+
+    #contato button {
+        padding: 10px 15px 10px 15px;
+        font-size: 17px;
+
+    }
+
+    /* Footer */
+    .rodape {
+        flex-direction: column;
+    }
+
+    .rodape label {
+        font-size: 15px;
+    }
+
+    .rodape img {
+        max-width: 300px;
+    }
+
+
 
 
 }

@@ -9,7 +9,8 @@ nav {
     position: fixed;
     padding: 0;
 }
-.navbar{
+
+.navbar {
     --bs-navbar-padding-y: 0 !important;
 }
 
@@ -78,20 +79,23 @@ nav {
 .button-text-banner:hover {
     background-color: rgba(40, 174, 177, 1);
 }
+
 .texto-banner i {
     margin-right: 10px;
 }
 
 /* Topicos */
-#topicos{
+#topicos {
     margin-top: 150px;
     margin-bottom: 130px;
 }
-.blocos{
+
+.blocos {
     display: flex;
     justify-content: center;
 }
-.bloco{
+
+.bloco {
     height: 450px;
     width: 350px;
     border-radius: 20px;
@@ -99,110 +103,131 @@ nav {
     display: grid;
     justify-items: start;
 }
-.bloco img{
+
+.bloco img {
     max-width: 350px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-.titulo-bloco{
+
+.titulo-bloco {
     font-size: 25px;
     text-align: left;
     margin: 15px 15px 15px 30px;
     color: rgb(59 76 98);
     font-weight: bold;
 }
-.paragrafo-bloco{
+
+.paragrafo-bloco {
     margin: 0px 20px 20px 20px;
     color: rgb(59 76 98);
 }
-.saiba-mais{
+
+.saiba-mais {
     color: rgb(59 76 98);
     padding: 20px 20px 20px 40px;
     text-decoration: none;
     transition: all 300ms ease-in;
 }
-.saiba-mais:hover{
+
+.saiba-mais:hover {
     color: rgba(40, 174, 177, 1);
 }
+
 /*Linha do tempo */
 
 #linha-tempo {
     color: white;
     margin-bottom: 130px;
 }
-#linha-tempo  h2{
+
+#linha-tempo h2 {
     font-weight: 100;
 
 }
+
 #linha-tempo .saiba-mais {
     color: white;
     padding: 0;
     font-size: 20px;
     transition: all 300ms ease-in;
 }
-#linha-tempo .saiba-mais:hover{
+
+#linha-tempo .saiba-mais:hover {
     color: rgba(40, 174, 177, 1);
 }
-.linha{
-    height: 350px; 
+
+.linha {
+    height: 350px;
     background: rgb(2 88 132);
     border-radius: 30px;
     display: flex;
     justify-content: center;
 }
-.boneco{
+
+.boneco {
     display: grid;
     justify-content: center;
     align-items: center;
 }
-.img-boneco{
+
+.img-boneco {
     max-width: 350px;
 }
-#nova-energia{
+
+#nova-energia {
     font-size: 60px;
     font-weight: 800;
     margin-top: -30px;
     color: white;
 }
+
 /*contato*/
-#contato{
+#contato {
     text-align: center;
-    color:rgb(59 76 98);
+    color: rgb(59 76 98);
     margin-bottom: 150px;
 }
-#contato h1{
+
+#contato h1 {
     font-size: 60px;
     font-weight: 700;
 }
-#contato p{
+
+#contato p {
     font-size: 25px;
     font-weight: 300;
     margin: 0;
     padding: 0;
 }
-#contato .bloco{
+
+#contato .bloco {
     background: linear-gradient(90deg, rgba(31, 133, 199, 1) 0%, rgba(40, 174, 177, 1) 100%);
     justify-items: center;
     height: 210px;
     width: 410px;
     align-content: center;
 }
-#contato .bloco img{
+
+#contato .bloco img {
     justify-items: center;
     max-width: 80px;
-    margin-top:20px;
+    margin-top: 20px;
 }
-.titulo-contato{
+
+.titulo-contato {
     font-size: 30px;
     font-weight: 700;
     color: white;
 }
-.paragrafo-contato{
+
+.paragrafo-contato {
     font-size: 15px !important;
     color: white;
     font-family: 'Montserrat';
 }
-#contato button{
+
+#contato button {
     border: none;
     padding: 10px 20px 10px 20px;
     border-radius: 50px;
@@ -211,18 +236,136 @@ nav {
     transition: all 400ms ease-in;
     color: white;
 }
-#contato button:hover{
+
+#contato button:hover {
     background: rgb(31, 133, 199);
-    
+
 }
-.rodape{
+
+.rodape {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-.logos-fundo{
+
+.logos-fundo {
     display: flex;
     justify-content: center;
 }
 
+.logos-fundo img {
+    max-width: 70%;
+}
+
+/*Conceito*/
+#banner-interno {
+    height: 650px;
+}
+
+#banner-conceito {
+    background-image: url("../images/banner.png");
+    height: 650px;
+}
+
+#nome-interno {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-size: 25px;
+}
+
+#nome-interno label {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+#botao-player {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    font-size: 170px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botao-player label {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+#conteudo-titulo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#conteudo-titulo h1{
+    margin: 0px 0px 50px 0px;
+    font-family: 'Montserrat';
+    color: #3b4c62;
+    font-weight: bold;
+}
+.paragrafo-conteudo{
+    font-family: 'Montserrat';
+    color: #3b4c62;
+}
+.paragrafo-conteudo span{
+    font-weight: bold;
+
+}
+/*O projeto - Benefícios*/
+#beneficios h1{
+    margin: 0px 0px 50px 0px;
+    font-family: 'Montserrat';
+    color: #3b4c62;
+    font-weight: bold;
+}
+.beneficios{
+    display: flex;
+    align-items: stretch;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.conteudo-master{
+    display: grid;
+    padding: 15px;
+}
+.conteudo-beneficio{
+    display: inline-flex;
+    align-items: stretch;
+}
+
+.conteudo-beneficio i{
+    font-size: 30px;
+    margin-right: 15px;
+    color: #3b4c62;
+}
+.beneficios img{
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+/*Conceito*/
+
+.banner-top{
+    background: rgb(3 114 170);
+    height: 650px;
+}
+.titulo-banner-top{
+    position: absolute;
+    margin-top: 300px;
+    color: white;
+    font-weight: 700;
+}
+.titulo-banner-top p{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+.img-conceito{
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
