@@ -81,12 +81,12 @@
                         </div>
                     </div>
                     <div class="col-md-6 conteudo-master">
-                        <img src="assets/images/banner.png" />
+                        <img src="assets/images/imagem-energia.jpg" />
                     </div>
                 </div>
                 <div class="beneficios">
                     <div class="col-md-6 conteudo-master">
-                        <img src="assets/images/banner.png" />
+                        <img src="assets/images/Imagem_ODS.jpg" />
                     </div>
                     <div class="col-md-6 conteudo-master">
                         <h1>ODS</h1>
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 conteudo-master">
-                        <img src="assets/images/banner.png" />
+                        <img src="assets/images/imagem-rio.jpg" />
                     </div>
                 </div>
             </div>

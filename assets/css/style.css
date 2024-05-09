@@ -4,7 +4,9 @@ body {
 
 nav {
     background: rgb(31, 133, 199);
-    background: linear-gradient(90deg, rgba(31, 133, 199, 1) 0%, rgba(40, 174, 177, 1) 100%);
+    background: transparent linear-gradient(270deg, #19CBDB 0%, #0978B2 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000036;
+    opacity: 1;
     font-family: 'Montserrat';
     position: fixed;
     padding: 0;
@@ -172,7 +174,7 @@ nav {
 }
 
 .img-boneco {
-    max-width: 350px;
+    max-width: 450px;
 }
 
 #nova-energia {
@@ -270,8 +272,8 @@ nav {
 
 #nome-interno {
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 15%;
+    left: 16%;
     color: white;
     font-size: 25px;
 }
@@ -297,75 +299,269 @@ nav {
     font-family: 'Montserrat';
     font-weight: bold;
 }
-#conteudo-titulo{
+
+#conteudo-titulo {
     margin-top: 100px;
     margin-bottom: 100px;
 
 }
-#conteudo-titulo h1{
+
+#conteudo-titulo h1 {
     margin: 0px 0px 50px 0px;
     font-family: 'Montserrat';
     color: #3b4c62;
     font-weight: bold;
 }
-.paragrafo-conteudo{
+
+.paragrafo-conteudo {
     font-family: 'Montserrat';
     color: #3b4c62;
 }
-.paragrafo-conteudo span{
+
+.paragrafo-conteudo span {
     font-weight: bold;
 
 }
+
 /*O projeto - Benefícios*/
-#beneficios h1{
+#beneficios h1 {
     margin: 0px 0px 50px 0px;
     font-family: 'Montserrat';
     color: #3b4c62;
     font-weight: bold;
 }
-.beneficios{
+
+.beneficios {
     display: flex;
     align-items: stretch;
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.conteudo-master{
+
+.conteudo-master {
     display: grid;
     padding: 15px;
 }
-.conteudo-beneficio{
+
+.conteudo-beneficio {
     display: inline-flex;
     align-items: stretch;
 }
 
-.conteudo-beneficio i{
+.conteudo-beneficio i {
     font-size: 30px;
     margin-right: 15px;
     color: #3b4c62;
 }
-.beneficios img{
+
+.beneficios img {
     max-width: 100%;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
+
 /*Conceito*/
 
-.banner-top{
+.banner-top {
     background: rgb(3 114 170);
     height: 650px;
 }
-.titulo-banner-top{
+
+.titulo-banner-top {
     position: absolute;
     margin-top: 300px;
     color: white;
     font-weight: 700;
 }
-.titulo-banner-top p{
+
+.titulo-banner-top p {
     font-family: 'Montserrat';
     font-weight: lighter;
 }
-.img-conceito{
+
+.img-conceito {
     max-width: 100%;
     border-radius: 20px;
     margin-bottom: 70px;
+}
+
+#conteudo-subtitulo {
+    padding-bottom: 100px;
+}
+
+#img-banner-download {
+    padding-bottom: 200px;
+}
+
+#img-banner-download img {
+    max-width: 100%;
+}
+
+/*inspirações*/
+
+#banner-interno-inspiracoes {
+    height: 650px;
+}
+
+#banner-interno-inspiracoes h1 {
+    max-width: 84%;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+#conteudo-titulo-intencoes {
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+
+/*linha do tempo*/
+
+.linha-tempo-titulo {
+    display: flex;
+    position: absolute;
+    top: 250px;
+}
+
+.linha-tempo-titulo-primeiro {
+    padding: 0px 40px 0px 00px;
+}
+
+.linha-tempo-titulo-segundo {
+    padding: 40px 10px 10px 10px;
+    color: white;
+}
+
+.linha-tempo-titulo h1 {
+    max-width: 60%;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 0.99;
+}
+
+.linha-tempo-titulo-segundo p {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#conteudo-titulo-linha-tempo {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+#conteudo-titulo-linha-tempo h1 {
+    color: #3B4C62;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 70px;
+}
+
+.botoes-linha-tempo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-linha-tempo {
+    max-width: 100%;
+    background-color: rgb(3 114 170);
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.botao-linha-tempo i {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 75%;
+
+}
+
+.botao-linha-tempo label {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 30px;
+    margin-left: 60px;
+
+}
+
+.conteudo-linha-tempo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 140px 30px 140px;
+}
+
+.linha {
+    height: 8px;
+    background: #EAEAEA 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.conteudo-interno-linha-tempo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.texto-interno-linha-tempo {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding-top: 30px;
+    align-content: space-between;
+}
+
+.texto-interno-linha-tempo label {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    max-width: 70%;
+    color: #3B4C62;
+}
+
+.p-pequeno {
+    text-align: center;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #3B4C62;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.paragrafo-enfatico {
+    border-radius: 60px;
+    background: #17C6DB;
+    padding: 5px 15px 5px 15px;
+    color: #025884;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+.mostra-linha {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.mostra-linha.visivel {
+    display: block;
+    opacity: 1;
+}
+/*downloads*/
+.img-downloads-topo{
+    max-width: 650px;
+    margin-left: 70px;
+}
+.downloads-titulo{
+    max-width: 70%;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 0.99;
 }

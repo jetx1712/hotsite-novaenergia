@@ -15,13 +15,13 @@
                         <a class="nav-link" href="conceito.php">Conceito</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inspirações</a>
+                        <a class="nav-link" href="inspiracoes.php">Inspirações</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Linha do tempo</a>
+                        <a class="nav-link" href="linha-tempo.php">Linha do tempo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Downloads</a>
+                        <a class="nav-link" href="downloads.php">Downloads</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contato</a>
