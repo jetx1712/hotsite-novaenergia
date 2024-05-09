@@ -53,7 +53,7 @@
                         <img src="assets/images/icons/Icon_Linhatempo.png" />
                         <img src="assets/images/icons/Icon_Linhatempo.png" />
                     </div>
-                    <div class="linha"></div>
+                    <div class="linha-hr-tempo"></div>
                     <div class="conteudo-interno-linha-tempo">
                         <div class="col-md-4 texto-interno-linha-tempo">
                             <label>Levantamento <br>de campo</label>
@@ -87,7 +87,7 @@
                         <img src="assets/images/icons/Icon_Linhatempo.png" />
                         <img src="assets/images/icons/Icon_Linhatempo.png" />
                     </div>
-                    <div class="linha"></div>
+                    <div class="linha-hr-tempo"></div>
                     <div class="conteudo-interno-linha-tempo">
                         <div class="col-md-4 texto-interno-linha-tempo">
                             <label>Levantamento <br>de campo</label>
@@ -121,7 +121,7 @@
                         <img src="assets/images/icons/Icon_Linhatempo.png" />
                         <img src="assets/images/icons/Icon_Linhatempo.png" />
                     </div>
-                    <div class="linha"></div>
+                    <div class="linha-hr-tempo"></div>
                     <div class="conteudo-interno-linha-tempo">
                         <div class="col-md-4 texto-interno-linha-tempo">
                             <label>Levantamento <br>de campo</label>
@@ -150,7 +150,7 @@
     <section id="img-banner-download">
         <div class="container">
             <div class="col-md-12">
-                <a href="download.php">
+                <a href="downloads.php">
                     <div>
                         <img src="assets/images/Banner_Downloads.png" />
                     </div>

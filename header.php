@@ -1,4 +1,8 @@
 <header>
+    <div id="search-overlay"></div>
+    <div id="search-popup">
+        <input class="form-control" type="text" placeholder="Pesquisar">
+    </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a href="index.php"><img class="logo" src="assets/images/logo.png" /></a>
@@ -24,11 +28,11 @@
                         <a class="nav-link" href="downloads.php">Downloads</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                 </ul>
             </div>
-            <div class="icon-search">
+            <div id="search-icon" class="icon-search">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>

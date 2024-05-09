@@ -18,10 +18,9 @@
 <body>
     <?php require ('header.php') ?>
     <section id="banner">
-        <div class="col-md-12">
-        <img class="col-md-12" src="assets/images/banner.png" />
+        <div class="col-md-12 banner">
         </div>
-        
+
         <div class="texto-banner">
             <h1 class="titulo-banner">
                 Projeto<br>
@@ -71,16 +70,18 @@
     </section>
     <section id="linha-tempo">
         <div class="container">
-            <div class="col-md-12 linha">
-                <div class="col-md-5 boneco">
-                    <img class="img-boneco" src="assets/images/boneco.png" />
-                </div>
-                <div class="col-md-5 boneco">
-                    <div>
-                        <h2>Confira a linha do tempo do projeto</h2>
-                        <label id="nova-energia">Nova Energia</label><br>
-                        <a class="saiba-mais" href="#"><i class="fa-solid fa-arrow-right"></i> Ver
-                            agora</a>
+            <div class="alinhar-linha">
+                <div class="col-md-12 linha">
+                    <div class="col-md-5 boneco">
+                        <img class="img-boneco" src="assets/images/boneco.png" />
+                    </div>
+                    <div class="col-md-5 boneco">
+                        <div>
+                            <h2>Confira a linha do tempo do projeto</h2>
+                            <label id="nova-energia">Nova Energia</label><br>
+                            <a class="saiba-mais" href="#"><i class="fa-solid fa-arrow-right"></i> Ver
+                                agora</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,28 +91,30 @@
         <div class="container">
             <h1>Ficou com dúvidas?</h1>
             <p style="margin-bottom: 50px">Abaixo segue os canais de comunicação do projeto</p>
-            <div class="col-md-12 blocos">
-                <div class="col-md-4 blocos">
-                    <div class="bloco">
-                        <img src="assets/images/icons/phone.svg" />
-                        <span class="titulo-contato">21 2000-1000</span>
-                        <p class="paragrafo-contato">De segunda a sexta, das 09:00h as 17:00h</p>
+            <div class="alinha-blocos">
+                <div class="col-md-12 blocos">
+                    <div class="col-md-4 blocos">
+                        <div class="bloco">
+                            <img src="assets/images/icons/phone.svg" />
+                            <span class="titulo-contato">21 2000-1000</span>
+                            <p class="paragrafo-contato">De segunda a sexta, das 09:00h as 17:00h</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 blocos">
-                    <div class="bloco">
-                        <img src="assets/images/icons/whatsapp.png" />
-                        <p style="margin-top: 6px" class="paragrafo-contato">WhatsApp</p>
-                        <span class="titulo-contato">21 2000-1000</span>
+                    <div class="col-md-4 blocos">
+                        <div class="bloco">
+                            <img src="assets/images/icons/whatsapp.png" />
+                            <p style="margin-top: 6px" class="paragrafo-contato">WhatsApp</p>
+                            <span class="titulo-contato">21 2000-1000</span>
 
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 blocos">
-                    <div class="bloco">
-                        <img src="assets/images/icons/mail.webp" />
-                        <p style="margin-top: 6px" class="paragrafo-contato">Via email</p>
-                        <button><i style="width: 30px;" class="fa-solid fa-arrow-right"></i>Acesso ao
-                            formulário</button>
+                    <div class="col-md-4 blocos">
+                        <div class="bloco">
+                            <img src="assets/images/icons/mail.webp" />
+                            <p style="margin-top: 6px" class="paragrafo-contato">Via email</p>
+                            <button><i style="width: 30px;" class="fa-solid fa-arrow-right"></i>Acesso ao
+                                formulário</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -140,6 +143,32 @@
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
                         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
                         crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script>
+                        $(document).ready(function () {
+                            var $searchOverlay = $("#search-overlay");
+                            var $searchPopup = $("#search-popup");
+                            var $searchIcon = $("#search-icon");
+                            var $searchInput = $("#search-input");
+
+                            $searchIcon.on("click", function (event) {
+                                $searchOverlay.show();
+                                $searchPopup.show();
+                                $searchInput.focus();
+                                event.stopPropagation();
+                            });
+
+                            $(document).on("click", function (event) {
+                                if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
+                                    $searchOverlay.hide();
+                                    $searchPopup.hide();
+                                }
+                            });
+                            $searchPopup.on("click", function (event) {
+                                event.stopPropagation();
+                            });
+                        });
+                    </script>
     </footer>
 
 </body>

@@ -24,7 +24,7 @@
                 </div>
                 <div class="container">
                     <div class="titulo-banner-top">
-                        <h1>O que significam "eficiencia energética" e "transição energética"?</h1>
+                        <h1>O que significam "eficiência energética" e "transição energética"?</h1>
                         <p>É comum ouvirmos os termos "eficiencia energética e "transição energética" quando falamos de ações sustentáveis e de consumo de energia. Mas o que significam?</p>
                     </div>
                 </div>
