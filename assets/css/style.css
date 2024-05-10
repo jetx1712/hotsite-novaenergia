@@ -44,6 +44,21 @@ nav {
     overflow: hidden;
     top: 300px;
 }
+.botao-pesquisa{
+    position: absolute;
+    top: 21%;
+    left: 84%;
+    padding: 16px 47px 16px 47px;
+    border-radius: 0px 30px 30px 0px;
+    background: linear-gradient(90deg, #0000 20.55%, rgb(31, 133, 199) 100%);
+    background-color: rgb(31, 133, 199);
+    border: none;
+    color: white;
+    transition: all 400ms ease-in;
+}
+.botao-pesquisa:hover {
+    background-color: rgba(40, 174, 177, 1);
+}
 .banner{
     height: 1000px;
     background-image: url('../images/banner.png');
@@ -118,8 +133,6 @@ nav {
 
 .bloco img {
     max-width: 350px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
 }
 
 .titulo-bloco {
@@ -252,7 +265,7 @@ nav {
 
 #contato .bloco img {
     justify-items: center;
-    max-width: 80px;
+    max-width: 100px;
     margin-top: 20px;
 }
 
@@ -839,7 +852,7 @@ nav {
     align-items: center;
 }
 .bloquinho-contato img{
-    max-width: 60px;
+    max-width: 100px;
     padding-top: 12px;
 }
 .bloquinho-contato h1{

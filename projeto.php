@@ -103,7 +103,7 @@
                 </div>
                 <div class="beneficios">
                     <div class="col-md-6 conteudo-master">
-                        <h1>O IRM Cumpre sua missão</h1>
+                        <h1>O IRM cumpre sua missão</h1>
                         <div class="conteudo-beneficio">
                             <p class="paragrafo-conteudo"> Como alcançar a eficiência e realizar a transição energética nos prédios públicos do Rio de Janeiro? Essas são algumas das 
                                 muitas questões levantadas pelo <span>Instituto Rio Metrópole (IRM)</span> qando o assunto envolve a Região Metropolitana do Rio de Janeiro. Com o compromisso

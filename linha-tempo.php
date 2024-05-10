@@ -40,7 +40,7 @@
         <div class="container">
             <div class="col-md-12">
                 <div class="">
-                    <h1>Conheça as Etapas do projeto Nova Energia</h1>
+                    <h1>Conheça as etapas do projeto Nova Energia</h1>
                 </div>
             </div>
             <div class="botoes-linha-tempo">

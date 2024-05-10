@@ -21,7 +21,7 @@
         <div class="col-md-12">
             <div class="banner-top">
                 <div id="nome-interno">
-                    <i class="bi bi-house"></i><label>/ Linha do tempo</label>
+                    <i class="bi bi-house"></i><label>/ Downloads</label>
                 </div>
                 <div class="container">
                     <div class="linha-tempo-titulo">
@@ -30,7 +30,7 @@
                         </div>
                         <div class="linha-tempo-titulo-segundo">
                             <p>Downloads</p>
-                            <h1>Acesse os materias do Projeto</h1>
+                            <h1>Acesse os materias do projeto</h1>
                         </div>
                     </div>
                 </div>

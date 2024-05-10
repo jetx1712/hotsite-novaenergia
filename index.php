@@ -8,15 +8,14 @@
     <!-- Inclua o link para o arquivo CSS do Bootstrap -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <?php require ('header.php') ?>
+    <?php require('header.php') ?>
     <section id="banner">
         <div class="col-md-12 banner">
         </div>
@@ -30,7 +29,7 @@
                 O caminho para uma energia mais sustentável e com menos impacto para os prédios públicos da <span>Região
                     metropolitada no estado do Rio de Janeiro.</span>
             </p>
-            <button class="button-text-banner"><i class="fa-solid fa-arrow-right"></i> Conheça o projeto</button>
+            <a href="projeto.php"><button class="button-text-banner"><i class="fa-solid fa-arrow-right"></i> Conheça o projeto</button></a>
         </div>
     </section>
     <section id="topicos">
@@ -40,9 +39,9 @@
                     <div class="bloco">
                         <img src="assets/images/Foto_Conceito.png" />
                         <label class="titulo-bloco">Conceito do projeto</label>
-                        <p class="paragrafo-bloco">Entenda o que significa os conceitos que permeiam o Projeto Nova
+                        <p class="paragrafo-bloco">Entenda o que significam os conceitos que permeiam o Projeto Nova
                             Energia, eficiência energética e transição energética.</p>
-                        <a class="saiba-mais" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
+                        <a class="saiba-mais" href="conceito.php"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
 
                     </div>
                 </div>
@@ -52,7 +51,7 @@
                         <label class="titulo-bloco">Inspirações</label>
                         <p class="paragrafo-bloco">Projetos que inspiram. Iniciativas de eficiência e transição
                             energética que vão gerar economia e reduzir a emissao de poluentes na atmosfera.</p>
-                        <a class="saiba-mais" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
+                        <a class="saiba-mais" href="inspiracoes.php"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
 
                     </div>
                 </div>
@@ -60,9 +59,8 @@
                     <div class="bloco">
                         <img src="assets/images/Foto_Downloads.png" />
                         <label class="titulo-bloco">Downloads</label>
-                        <p class="paragrafo-bloco">Entenda o que significa os conceitos que permeiam o Projeto Nova
-                            Energia, eficiência energética e transição energética.</p>
-                        <a class="saiba-mais" href="#"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
+                        <p class="paragrafo-bloco">Acesse e faça o download dos documentos relacionados ao projeto Nova Energia.</p>
+                        <a class="saiba-mais" href="downloads.php"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -79,7 +77,7 @@
                         <div>
                             <h2>Confira a linha do tempo do projeto</h2>
                             <label id="nova-energia">Nova Energia</label><br>
-                            <a class="saiba-mais" href="#"><i class="fa-solid fa-arrow-right"></i> Ver
+                            <a class="saiba-mais" href="linha-tempo.php"><i class="fa-solid fa-arrow-right"></i> Ver
                                 agora</a>
                         </div>
                     </div>
@@ -89,13 +87,13 @@
     </section>
     <section id="contato">
         <div class="container">
-            <h1>Ficou com dúvidas?</h1>
+            <h1>Entre com contato conosco.</h1>
             <p style="margin-bottom: 50px">Abaixo segue os canais de comunicação do projeto</p>
             <div class="alinha-blocos">
                 <div class="col-md-12 blocos">
                     <div class="col-md-4 blocos">
                         <div class="bloco">
-                            <img src="assets/images/icons/phone.svg" />
+                            <img src="assets/images/icons/Banner_home_Tel-01.png" />
                             <span class="titulo-contato">21 2000-1000</span>
                             <p class="paragrafo-contato">De segunda a sexta, das 09:00h as 17:00h</p>
                         </div>
@@ -110,66 +108,18 @@
                     </div>
                     <div class="col-md-4 blocos">
                         <div class="bloco">
-                            <img src="assets/images/icons/mail.webp" />
+                            <img style="margin-right: 20px;" src="assets/images/icons/Banner_home_email-01.png" />
                             <p style="margin-top: 6px" class="paragrafo-contato">Via email</p>
-                            <button><i style="width: 30px;" class="fa-solid fa-arrow-right"></i>Acesso ao
-                                formulário</button>
+                            <a href="contato.php"><button><i style="width: 30px;" class="fa-solid fa-arrow-right"></i>Acesso ao
+                                    formulário</button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer>
-        <div style="background-color: #eaeaea;" class="col-md-12">
-            <div class="rodape">
-                <div>
-                    <img src="assets/images/logo-rodape.png" />
-                </div>
-                <div>
-                    <label>Nova Energia - 2024 | Todos os direitos reservados.<label>
-                </div>
-            </div>
-        </div>
-        <div style="justify-content:center" class="col-md-12">
-            <div class="logos-fundo">
-                <img src="assets/images/imagem-footer.png" />
-            </div>
-            <div>
-                <div>
-                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-                        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-                        crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-                        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-                        crossorigin="anonymous"></script>
-                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                    <script>
-                        $(document).ready(function () {
-                            var $searchOverlay = $("#search-overlay");
-                            var $searchPopup = $("#search-popup");
-                            var $searchIcon = $("#search-icon");
-                            var $searchInput = $("#search-input");
-
-                            $searchIcon.on("click", function (event) {
-                                $searchOverlay.show();
-                                $searchPopup.show();
-                                $searchInput.focus();
-                                event.stopPropagation();
-                            });
-
-                            $(document).on("click", function (event) {
-                                if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
-                                    $searchOverlay.hide();
-                                    $searchPopup.hide();
-                                }
-                            });
-                            $searchPopup.on("click", function (event) {
-                                event.stopPropagation();
-                            });
-                        });
-                    </script>
-    </footer>
+    <?php require_once('footer.php') ?>
+    
 
 </body>
 
