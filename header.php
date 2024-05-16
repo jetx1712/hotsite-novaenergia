@@ -1,20 +1,21 @@
 <?php
 // Função para verificar a página atual
-function currentPage($page) {
+function currentPage($page)
+{
     return basename($_SERVER['PHP_SELF']) == $page ? 'active' : '';
 }
 ?>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const searchInput = document.getElementById("search-input");
-    const searchButton = document.getElementById("search-button");
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("search-input");
+        const searchButton = document.getElementById("search-button");
 
-    searchButton.addEventListener("click", function() {
-        const searchTerm = searchInput.value;
-        // Redireciona para a página que lida com a busca, passando o termo de pesquisa como parâmetro
-        window.location.href = "buscar.php?termo=" + encodeURIComponent(searchTerm);
+        searchButton.addEventListener("click", function () {
+            const searchTerm = searchInput.value;
+            // Redireciona para a página que lida com a busca, passando o termo de pesquisa como parâmetro
+            window.location.href = "buscar.php?termo=" + encodeURIComponent(searchTerm);
+        });
     });
-});
 </script>
 
 <header>
@@ -40,13 +41,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a class="nav-link <?php echo currentPage('conceito.php'); ?>" href="conceito.php">Conceito</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo currentPage('inspiracoes.php'); ?>" href="inspiracoes.php">Inspirações</a>
+                        <a class="nav-link <?php echo currentPage('inspiracoes.php'); ?>"
+                            href="inspiracoes.php">Inspirações</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo currentPage('linha-tempo.php'); ?>" href="linha-tempo.php">Linha do tempo</a>
+                        <a class="nav-link <?php echo currentPage('linha-tempo.php'); ?>" href="linha-tempo.php">Linha
+                            do tempo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo currentPage('downloads.php'); ?>" href="downloads.php">Downloads</a>
+                        <a class="nav-link <?php echo currentPage('downloads.php'); ?>"
+                            href="downloads.php">Downloads</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo currentPage('contato.php'); ?>" href="contato.php">Contato</a>

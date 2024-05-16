@@ -37,7 +37,7 @@
             <div class="col-md-12 blocos">
                 <div class="col-md-4 blocos">
                     <div class="bloco">
-                        <img src="assets/images/Foto_Conceito.png" />
+                        <img src="assets/images/Foto_Conceito.jpg" />
                         <label class="titulo-bloco">Conceito do projeto</label>
                         <p class="paragrafo-bloco">Entenda o que significam os conceitos que permeiam o Projeto Nova
                             Energia, eficiência energética e transição energética.</p>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-4 blocos">
                     <div class="bloco">
-                        <img src="assets/images/Foto_Inspiracoes.png" />
+                        <img src="assets/images/Foto_Inspiracoes.jpg" />
                         <label class="titulo-bloco">Inspirações</label>
                         <p class="paragrafo-bloco">Projetos que inspiram. Iniciativas de eficiência e transição
                             energética que vão gerar economia e reduzir a emissao de poluentes na atmosfera.</p>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-md-4 blocos">
                     <div class="bloco">
-                        <img src="assets/images/Foto_Downloads.png" />
+                        <img src="assets/images/Foto_Downloads.jpg" />
                         <label class="titulo-bloco">Downloads</label>
                         <p class="paragrafo-bloco">Acesse e faça o download dos documentos relacionados ao projeto Nova Energia.</p>
                         <a class="saiba-mais" href="downloads.php"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>

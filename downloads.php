@@ -39,22 +39,30 @@
     </section>
     <section id="conteudo-download">
         <div class="container">
-            <div class="col-md-12 botoes-download">
-                <div class="col-md-4 botao-download">
-                    <h3>PDF</h3>
-                </div>
-                <div class="col-md-4 botao-download">
-                    <h3>Vídeo</h3>
-                </div>
-            </div>
             <div class="col-md-12 botao-2-estrutura">
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
                         <label>Wokshop do projeto de eficientização e transição energética</label>
                     </div>
-                    <div class="elemento-baixar">
+                    <a href="assets/documents/workshop-prefeitura.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>
+                    </div></a>
+                </div>
+                <div class="col-md-10 botao-2-download">
+                    <div class="elemento-workshop">
+                        <label>Plano de gerenciamento de projeto - lote1</label>
                     </div>
+                    <a href="assets/documents/plano-de-gerenciamento-projeto-lote-1.pdf" target="_blank"><div class="elemento-baixar">
+                        <label>Baixar</label>
+                    </div></a>
+                </div>
+                <div class="col-md-10 botao-2-download">
+                    <div class="elemento-workshop">
+                        <label>Apresentação inicial</label>
+                    </div>
+                    <a href="assets/documents/Apresentacao-inicial.pdf" target="_blank"><div class="elemento-baixar">
+                        <label>Baixar</label>
+                    </div></a>
                 </div>
 
             </div>
@@ -85,6 +93,41 @@
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
                         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
                         crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                        crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+                        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+                        crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script>
+                        $(document).ready(function () {
+                            var $searchOverlay = $("#search-overlay");
+                            var $searchPopup = $("#search-popup");
+                            var $searchIcon = $("#search-icon");
+                            var $searchInput = $("#search-input");
+
+                            $searchIcon.on("click", function (event) {
+                                $searchOverlay.show();
+                                $searchPopup.show();
+                                $searchInput.focus();
+                                event.stopPropagation();
+                            });
+
+                            $(document).on("click", function (event) {
+                                if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
+                                    $searchOverlay.hide();
+                                    $searchPopup.hide();
+                                }
+                            });
+                            $searchPopup.on("click", function (event) {
+                                event.stopPropagation();
+                            });
+                        });
+                    </script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     </footer>
 
 </body>
