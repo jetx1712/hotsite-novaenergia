@@ -27,7 +27,7 @@
             </h1>
             <p class="subtitulo-banner">
                 O caminho para uma energia mais sustentável e com menos impacto para os prédios públicos da <span>Região
-                    metropolitada no estado do Rio de Janeiro.</span>
+                    Metropolitada no Estado do Rio de Janeiro.</span>
             </p>
             <a href="projeto.php"><button class="button-text-banner"><i class="fa-solid fa-arrow-right"></i> Conheça o projeto</button></a>
         </div>
@@ -39,7 +39,7 @@
                     <div class="bloco">
                         <img src="assets/images/Foto_Conceito.jpg" />
                         <label class="titulo-bloco">Conceito do projeto</label>
-                        <p class="paragrafo-bloco">Entenda o que significam os conceitos que permeiam o Projeto Nova
+                        <p class="paragrafo-bloco">Entenda o que significam os conceitos que permeiam o projeto Nova
                             Energia, eficiência energética e transição energética.</p>
                         <a class="saiba-mais" href="conceito.php"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
 
@@ -50,7 +50,7 @@
                         <img src="assets/images/Foto_Inspiracoes.jpg" />
                         <label class="titulo-bloco">Inspirações</label>
                         <p class="paragrafo-bloco">Projetos que inspiram. Iniciativas de eficiência e transição
-                            energética que vão gerar economia e reduzir a emissao de poluentes na atmosfera.</p>
+                            energética que vão gerar economia e reduzir a emissão de poluentes na atmosfera.</p>
                         <a class="saiba-mais" href="inspiracoes.php"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
 
                     </div>
@@ -88,7 +88,7 @@
     <section id="contato">
         <div class="container">
             <h1>Entre com contato conosco.</h1>
-            <p style="margin-bottom: 50px">Abaixo segue os canais de comunicação do projeto</p>
+            <p style="margin-bottom: 50px">Fale conosco para ter mais informações sobre o projeto</p>
             <div class="alinha-blocos">
                 <div class="col-md-12 blocos">
                     <div class="col-md-4 blocos">

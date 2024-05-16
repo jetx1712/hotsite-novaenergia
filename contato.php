@@ -69,7 +69,7 @@
                                 <div class="footer-linha-vertical">
                                     <div class="footer-bloco-segundo">
                                         <h1>Ficou com dúvidas?</h1>
-                                        <p>Abaixo segue os canais de comunicação do projeto.</p>
+                                        <p>Entre em contato.</p>
                                     </div>
                                     <div class="blocos-footer-contato">
                                         <div class="bloco-interno-footer">

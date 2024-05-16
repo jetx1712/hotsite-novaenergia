@@ -42,7 +42,7 @@
                         a eficiência de equipamentos e processos e aumentar o uso de fontes de energia renováveis, como a solar e a eólica.
                     </p>
                     <p class="paragrafo-conteudo">
-                        Quando se substitui uma lâmpada fluorescente por uma <span>lâmpada LED</span>,por exemplo, estamos buscando a eficiência energética. O mesmo acontece quando se compra um
+                        Quando se substitui uma lâmpada fluorescente por uma <span>lâmpada LED</span>, por exemplo, estamos buscando a eficiência energética. O mesmo acontece quando se compra um
                         eletrodoméstico com o selo Procel por ele consumir menos energia. Dentre as vantagens da
                         eficiência energética, destacamos a redução nos gastos de energia, menor consumo de energia, água e outros recursos naturais, segurança energética, inovação, combate ao aquecimento
                         global, alinhamento com medidas <span>ESG (sigla em inglês que significa environmental, social and governance, e corresponde às práticas ambientais, sociais e de governança)</span> e redução na

@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
-                        <label>Plano de gerenciamento de projeto - lote1</label>
+                        <label>Plano de gerenciamento de projeto - NOVA ENERGIA</label>
                     </div>
                     <a href="assets/documents/plano-de-gerenciamento-projeto-lote-1.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>

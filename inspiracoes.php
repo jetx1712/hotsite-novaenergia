@@ -36,7 +36,7 @@
                 <div class="">
                     <h1>Rio de Janeiro</h1>
                     <img class="img-conceito" src="assets/images/Imagem_Riodejaneiro.png" />
-                    <p class="paragrafo-conteudo"><span>Rio de Janeiro é a primeira cidade da América Latina</span> adotar fontes limpas e renováveis de energia para abastecer órgãos públicos.
+                    <p class="paragrafo-conteudo"><span>Rio de Janeiro é a primeira cidade da América Latina</span> a adotar fontes limpas e renováveis de energia para abastecer órgãos públicos.
                         O <span>Programa de Eficiência Energética (PPE)</span> do Rio foi inaugurado em setembro de 2023 abastecendo o Centro Administrativo São Sebastião (CASS), sede da Prefeitura.
                     </p>
                     <p class="paragrafo-conteudo">
