@@ -42,7 +42,7 @@
                         a eficiência de equipamentos e processos e aumentar o uso de fontes de energia renováveis, como a solar e a eólica.
                     </p>
                     <p class="paragrafo-conteudo">
-                        Quando se substitui uma lâmpada fluorescente por uma <span>lâmpada LED</span>,por exemplo, estamos buscando a eficiência energética. O mesmo acontece quando se compra um
+                        Quando se substitui uma lâmpada fluorescente por uma <span>lâmpada LED</span>, por exemplo, estamos buscando a eficiência energética. O mesmo acontece quando se compra um
                         eletrodoméstico com o selo Procel por ele consumir menos energia. Dentre as vantagens da
                         eficiência energética, destacamos a redução nos gastos de energia, menor consumo de energia, água e outros recursos naturais, segurança energética, inovação, combate ao aquecimento
                         global, alinhamento com medidas <span>ESG (sigla em inglês que significa environmental, social and governance, e corresponde às práticas ambientais, sociais e de governança)</span> e redução na
@@ -106,6 +106,37 @@
                 <div>
                     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script>
+                        $(document).ready(function() {
+                            var $searchOverlay = $("#search-overlay");
+                            var $searchPopup = $("#search-popup");
+                            var $searchIcon = $("#search-icon");
+                            var $searchInput = $("#search-input");
+
+                            $searchIcon.on("click", function(event) {
+                                $searchOverlay.show();
+                                $searchPopup.show();
+                                $searchInput.focus();
+                                event.stopPropagation();
+                            });
+
+                            $(document).on("click", function(event) {
+                                if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
+                                    $searchOverlay.hide();
+                                    $searchPopup.hide();
+                                }
+                            });
+                            $searchPopup.on("click", function(event) {
+                                event.stopPropagation();
+                            });
+                        });
+                    </script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     </footer>
 
 </body>

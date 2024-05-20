@@ -36,7 +36,7 @@
                 <div class="">
                     <h1>Rio de Janeiro</h1>
                     <img class="img-conceito" src="assets/images/Imagem_Riodejaneiro.png" />
-                    <p class="paragrafo-conteudo"><span>Rio de Janeiro é a primeira cidade da América Latina</span> adotar fontes limpas e renováveis de energia para abastecer órgãos públicos.
+                    <p class="paragrafo-conteudo"><span>Rio de Janeiro é a primeira cidade da América Latina</span> a adotar fontes limpas e renováveis de energia para abastecer órgãos públicos.
                         O <span>Programa de Eficiência Energética (PPE)</span> do Rio foi inaugurado em setembro de 2023 abastecendo o Centro Administrativo São Sebastião (CASS), sede da Prefeitura.
                     </p>
                     <p class="paragrafo-conteudo">
@@ -66,6 +66,37 @@
                 <div>
                     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script>
+                        $(document).ready(function() {
+                            var $searchOverlay = $("#search-overlay");
+                            var $searchPopup = $("#search-popup");
+                            var $searchIcon = $("#search-icon");
+                            var $searchInput = $("#search-input");
+
+                            $searchIcon.on("click", function(event) {
+                                $searchOverlay.show();
+                                $searchPopup.show();
+                                $searchInput.focus();
+                                event.stopPropagation();
+                            });
+
+                            $(document).on("click", function(event) {
+                                if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
+                                    $searchOverlay.hide();
+                                    $searchPopup.hide();
+                                }
+                            });
+                            $searchPopup.on("click", function(event) {
+                                event.stopPropagation();
+                            });
+                        });
+                    </script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     </footer>
 
 </body>

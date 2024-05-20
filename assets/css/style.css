@@ -61,7 +61,7 @@ nav {
 }
 .banner{
     height: 1000px;
-    background-image: url('../images/banner.png');
+    background-image: url('../images/banner.jpg');
     max-width: 100%;
     background-size: cover;
     background-position: center;
@@ -318,7 +318,7 @@ nav {
 }
 
 #banner-conceito {
-    background-image: url("../images/banner.png");
+    background-image: url("../images/banner.jpg");
     height: 650px;
     
 }
@@ -619,7 +619,7 @@ nav {
 
 /*downloads*/
 #conteudo-download {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .img-downloads-topo {
@@ -664,8 +664,9 @@ nav {
 .botao-2-estrutura {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
     margin-bottom: 150px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .botao-2-download {
@@ -675,6 +676,11 @@ nav {
     align-items: center;
     border: solid 1px;
     border-radius: 40px;
+    margin: 10px 0px 10px 0px;
+}
+.botao-2-download a{
+    color: black;
+    text-decoration: none;
 }
 
 .elemento-baixar {

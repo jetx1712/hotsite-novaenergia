@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova Energia</title>
+    <title>Nova Energia - O projeto</title>
     <!-- Inclua o link para o arquivo CSS do Bootstrap -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
@@ -35,10 +35,10 @@
             <div class="col-md-12">
                 <div class="">
                     <h1>O projeto Nova Energia</h1>
-                    <p class="paragrafo-conteudo"> Um Projeto do <span>Instituto Rio Metropole</span> que aponta
+                    <p class="paragrafo-conteudo"> Um projeto do <span>Instituto Rio Metropole</span> que aponta
                         soluções para a eficiência e transição da Região Metropolitana do RJ. O <span>Nova
                             Energia</span> é
-                        uma iniciativa que cria um banco de dados e definir uma modelagem de transição, gestão e
+                        uma iniciativa que cria um banco de dados e define uma modelagem de transição, gestão e
                         eficiência energética em prédios públicos de 19 municípios da Região Metropolitana -
                         <span>Belford Roxo
                             Cachoeiras de Macacu, Duque de Caxias, Guapimirim, Itaboraí, Itaguaí, Japeri, Magé, Maricá,
@@ -59,7 +59,7 @@
     <section id="beneficios">
         <div class="container">
             <div class="col-md-12">
-                <h1>Os Benefícios ?</h1>
+                <h1>Os benefícios ?</h1>
                 <div class="beneficios">
                     <div class="col-md-6 conteudo-master">
                         <h1>Energia Solar</h1>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="conteudo-beneficio">
                             <p class="paragrafo-conteudo"> São eles: <span>ODS 7 (energia limpa e acessível: garantir acesso a energia barata, confiável, sustentável e renovável para todos)</span> e <span>ODS 13
-                                (ação contra a mudança global do clima: tomar medidas urgêntes para a mudança climática e seus impactos).
+                                (ação contra a mudança global do clima: tomar medidas urgentes para a mudança climática e seus impactos).
                             </span></p>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                         <h1>O IRM cumpre sua missão</h1>
                         <div class="conteudo-beneficio">
                             <p class="paragrafo-conteudo"> Como alcançar a eficiência e realizar a transição energética nos prédios públicos do Rio de Janeiro? Essas são algumas das 
-                                muitas questões levantadas pelo <span>Instituto Rio Metrópole (IRM)</span> qando o assunto envolve a Região Metropolitana do Rio de Janeiro. Com o compromisso
+                                muitas questões levantadas pelo <span>Instituto Rio Metrópole (IRM)</span> quando o assunto envolve a Região Metropolitana do Rio de Janeiro. Com o compromisso
                                 de buscar soluções tecnológicas de ponta para infraestrutura de transporte, conectividade, iluminação pública e modelos de eficiência energética, o IRM lançou o <span>projeto Nova Energia.</span>
                             </p>
                         </div>
@@ -143,6 +143,37 @@
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
                         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
                         crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script>
+                        $(document).ready(function() {
+                            var $searchOverlay = $("#search-overlay");
+                            var $searchPopup = $("#search-popup");
+                            var $searchIcon = $("#search-icon");
+                            var $searchInput = $("#search-input");
+
+                            $searchIcon.on("click", function(event) {
+                                $searchOverlay.show();
+                                $searchPopup.show();
+                                $searchInput.focus();
+                                event.stopPropagation();
+                            });
+
+                            $(document).on("click", function(event) {
+                                if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
+                                    $searchOverlay.hide();
+                                    $searchPopup.hide();
+                                }
+                            });
+                            $searchPopup.on("click", function(event) {
+                                event.stopPropagation();
+                            });
+                        });
+                    </script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     </footer>
 
 </body>
