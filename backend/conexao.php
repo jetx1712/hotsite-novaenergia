@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost"; 
-$username = "root"; 
-$password = ""; 
-$dbname = "test"; 
+$servername = "just2077.justhost.com"; 
+$username = "brfastco_novaenergia"; 
+$password = "8sNnud,#Hl7b"; 
+$dbname = "brfastco_novaenergia"; 
 
 // Criando a conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
