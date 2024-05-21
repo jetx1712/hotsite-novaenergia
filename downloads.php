@@ -42,7 +42,7 @@
             <div class="col-md-12 botao-2-estrutura">
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
-                        <label>Wokshop do projeto de eficientização e transição energética</label>
+                        <label>Wokshop do projeto de eficientização e transição energética - PDF</label>
                     </div>
                     <a href="assets/documents/workshop-prefeitura.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
-                        <label>Plano de gerenciamento de projeto - NOVA ENERGIA</label>
+                        <label>Plano de gerenciamento de projeto - NOVA ENERGIA - PDF</label>
                     </div>
                     <a href="assets/documents/plano-de-gerenciamento-projeto-lote-1.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
-                        <label>Apresentação inicial</label>
+                        <label>Apresentação inicial do projeto Nova Energia - PDF</label>
                     </div>
                     <a href="assets/documents/Apresentacao-inicial.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>
