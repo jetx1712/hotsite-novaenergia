@@ -1,11 +1,11 @@
 <?php
-require('conexao.php');
+require ('conexao.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["status_etapa_1"]) && isset($_POST["id_registro"])) {
         $id_registro = $_POST['id_registro'];
         $status_etapa_1 = $_POST["status_etapa_1"];
-        
+
         // Atualizar o status na tabela etapas-1
         $sql_update = "UPDATE `etapa-1` SET status_etapa = '$status_etapa_1', data = NOW() WHERE id_registro = $id_registro";
         if ($conn->query($sql_update) === TRUE) {
