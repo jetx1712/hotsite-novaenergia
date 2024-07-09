@@ -8,9 +8,6 @@ $sql = "SELECT * FROM usuarios WHERE usuario = '$usuario' AND senha = '$senha'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    session_start();
-    $valida = true;
-    $_SESSION['valida'] = $valida;
     header("Location: edicao.php"); 
 } else {
     echo "<script>alert('Usuário ou senha incorretos. Por favor, tente novamente.'); window.location.href = 'login.php';</script>";

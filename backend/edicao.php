@@ -1,13 +1,4 @@
-<?php session_start();
-$valida = $_SESSION['valida'];
-
-if (!isset($_SESSION['valida']) || !$_SESSION['valida']) {
-    session_destroy();
-    header("Location: login.php");
-    exit; 
-}
-require ('conexao.php');
-?>
+<?php require ('conexao.php') ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -26,6 +17,7 @@ require ('conexao.php');
             padding: 0;
             font-family: Arial, sans-serif;
             background-image: url('banner.png');
+            /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
             background-size: cover;
             background-position: center;
             height: 150vh;
@@ -113,6 +105,5 @@ $result = $conn->query($sql);
         </form>
     </div>
 </body>
-<?php session_destroy(); ?>
 
 </html>
