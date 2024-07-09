@@ -41,7 +41,7 @@
                 </div>
                 <div id="botao-player">
                     <i class="bi bi-play-circle"></i>
-                    <label>Assista o video do projeto</label>
+                    <label>Assista ao video do projeto</label>
                 </div>
             </div>
         </div>
@@ -51,15 +51,10 @@
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="videoModalLabel">Vídeo</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" id="video" src="" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/T-i6MtxFZeo?si=Jyln-uLdyDQP-Lzu&amp;start=1"
+                            title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
