@@ -46,6 +46,27 @@
             </div>
         </div>
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Vídeo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" id="video" src="" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section id="conteudo-titulo">
         <div class="container">
             <div class="col-md-12">
@@ -107,13 +128,21 @@
                     <div class="col-md-6 conteudo-master">
                         <h1>ODS</h1>
                         <div class="conteudo-beneficio">
-                            <p class="paragrafo-conteudo"> O projeto <span>Nova Energia</span> atende a dois dos <span>17 objetivos de Desenvolvimento Sustentável (ODS)</span>, parte da chamada "Agenda 2023", um
-                        pacto global assinado durante a Cúpula das Nações Unidas em 2015 pelos 193 países membros - o Brasil é um deles.</p>
+                            <p class="paragrafo-conteudo"> O projeto <span>Nova Energia</span> atende a dois dos
+                                <span>17 objetivos de Desenvolvimento Sustentável (ODS)</span>, parte da chamada "Agenda
+                                2023", um
+                                pacto global assinado durante a Cúpula das Nações Unidas em 2015 pelos 193 países
+                                membros - o Brasil é um deles.
+                            </p>
                         </div>
                         <div class="conteudo-beneficio">
-                            <p class="paragrafo-conteudo"> São eles: <span>ODS 7 (energia limpa e acessível: garantir acesso a energia barata, confiável, sustentável e renovável para todos)</span> e <span>ODS 13
-                                (ação contra a mudança global do clima: tomar medidas urgentes para a mudança climática e seus impactos).
-                            </span></p>
+                            <p class="paragrafo-conteudo"> São eles: <span>ODS 7 (energia limpa e acessível: garantir
+                                    acesso a energia barata, confiável, sustentável e renovável para todos)</span> e
+                                <span>ODS 13
+                                    (ação contra a mudança global do clima: tomar medidas urgentes para a mudança
+                                    climática e seus impactos).
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -121,9 +150,13 @@
                     <div class="col-md-6 conteudo-master">
                         <h1>O IRM cumpre sua missão</h1>
                         <div class="conteudo-beneficio">
-                            <p class="paragrafo-conteudo"> Como alcançar a eficiência e realizar a transição energética nos prédios públicos do Rio de Janeiro? Essas são algumas das 
-                                muitas questões levantadas pelo <span>Instituto Rio Metrópole (IRM)</span> quando o assunto envolve a Região Metropolitana do Rio de Janeiro. Com o compromisso
-                                de buscar soluções tecnológicas de ponta para infraestrutura de transporte, conectividade, iluminação pública e modelos de eficiência energética, o IRM lançou o <span>projeto Nova Energia.</span>
+                            <p class="paragrafo-conteudo"> Como alcançar a eficiência e realizar a transição energética
+                                nos prédios públicos do Rio de Janeiro? Essas são algumas das
+                                muitas questões levantadas pelo <span>Instituto Rio Metrópole (IRM)</span> quando o
+                                assunto envolve a Região Metropolitana do Rio de Janeiro. Com o compromisso
+                                de buscar soluções tecnológicas de ponta para infraestrutura de transporte,
+                                conectividade, iluminação pública e modelos de eficiência energética, o IRM lançou o
+                                <span>projeto Nova Energia.</span>
                             </p>
                         </div>
                     </div>
@@ -159,31 +192,48 @@
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
                         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
                         crossorigin="anonymous"></script>
-                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                        crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+                        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+                        crossorigin="anonymous"></script>
                     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
                     <script>
-                        $(document).ready(function() {
+                        $(document).ready(function () {
                             var $searchOverlay = $("#search-overlay");
                             var $searchPopup = $("#search-popup");
                             var $searchIcon = $("#search-icon");
                             var $searchInput = $("#search-input");
 
-                            $searchIcon.on("click", function(event) {
+                            $searchIcon.on("click", function (event) {
                                 $searchOverlay.show();
                                 $searchPopup.show();
                                 $searchInput.focus();
                                 event.stopPropagation();
                             });
 
-                            $(document).on("click", function(event) {
+                            $(document).on("click", function (event) {
                                 if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
                                     $searchOverlay.hide();
                                     $searchPopup.hide();
                                 }
                             });
-                            $searchPopup.on("click", function(event) {
+                            $searchPopup.on("click", function (event) {
                                 event.stopPropagation();
+                            });
+                        });
+                    </script>
+                    <script>
+                        $(document).ready(function () {
+                            $('#botao-player').click(function () {
+                                var videoSrc = 'https://www.youtube.com/embed/Y4goaZhNt4k?si=AjAMcJv1hFz0QwlO';
+                                $('#video').attr('src', videoSrc);
+                                $('#videoModal').modal('show');
+                            });
+
+                            $('#videoModal').on('hidden.bs.modal', function () {
+                                $('#video').attr('src', '');
                             });
                         });
                     </script>
